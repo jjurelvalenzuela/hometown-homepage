@@ -1,0 +1,64 @@
+/* Use CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+/* 
+Colors:
+Blue: #1E2A38
+White: #F5F5F5
+Brown: #D9BFAF
+Gold: #F0A202
+Gray: 	#7A7A7A
+*/
+
+body {
+  text-align: center;
+}
+
+/* Hero Section */
+.hero-section {
+  height: 50vh;
+  background-image: url("/images/hero-img.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+}
+
+.hero-title {
+  font-family: "Playfair Display", serif;
+}
+
+.hero-description {
+  font-family: "Lato", sans-serif;
+}
+
+.hero-title {
+  color: #f5f5f5;
+  font-size: 4em;
+}
+
+.hero-description {
+  color: #d9bfaf;
+  font-size: 1.33rem;
+}
+.activities-section {
+  height: 30vh;
+  background-color: #f5f5f5;
+}
+
+.activities-section-title {
+  color: #1e2a38;
+}
+.activities-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
