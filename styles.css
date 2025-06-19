@@ -31,7 +31,9 @@ body {
   line-height: 1.5;
 }
 
-.hero-title {
+.hero-title,
+.activities-title,
+.activities-section-title {
   font-family: "Playfair Display", serif;
 }
 
@@ -48,17 +50,51 @@ body {
   color: #d9bfaf;
   font-size: 1.33rem;
 }
+
+/* Activities Section*/
 .activities-section {
-  height: 30vh;
+  height: 50vh;
   background-color: #f5f5f5;
+  padding: 2rem 5rem;
 }
 
 .activities-section-title {
   color: #1e2a38;
+  font-size: 2rem;
 }
 .activities-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30vh;
+
+  height: 300px;
+}
+
+.activities-title {
+  color: #f0a202;
+  padding: 10px 0;
+}
+
+.activities-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  padding: 2rem 3rem;
+  height: 300px;
+}
+
+.activities-img {
+  display: block;
+  width: 200px;
+  height: 130px;
+  border-radius: 50%;
+  border: 1px solid #d9bfaf;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.activities-description {
+  color: #7a7a7a;
+  line-height: 1.6;
 }
